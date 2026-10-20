@@ -8,7 +8,7 @@ class Siswa extends Model
 {
     protected $table = 'siswa';
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     protected $fillable = [
         'name',
